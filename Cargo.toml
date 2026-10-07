@@ -12,6 +12,10 @@ repository = "https://github.com/ourengineer/irBANK"
 tokio = { version = "1.35", features = ["full"] }
 tokio-util = "0.7"
 
+# Web framework
+actix-web = "4.4"
+actix-cors = "0.7"
+
 # Database
 sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "sqlite", "chrono", "uuid"] }
 
@@ -63,6 +67,10 @@ lazy_static = "1.4"
 [[bin]]
 name = "irbank_cli"
 path = "src/main.rs"
+
+[[bin]]
+name = "irbank_server"
+path = "src/server.rs"
 
 [lib]
 name = "irbank"
