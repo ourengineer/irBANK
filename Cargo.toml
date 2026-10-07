@@ -2,9 +2,9 @@
 name = "irbank"
 version = "1.0.0"
 edition = "2021"
-authors = ["Algie Bookshelves <engineering@ourengineer.com>"]
+authors = ["Algie Bookshelves <our@engineer.com>"]
 description = "Intellectual Property Bank - Secure, War-Proof and Hack-Proof Banking System"
-license = "MIT"
+license = "Private"
 repository = "https://github.com/ourengineer/irBANK"
 
 [dependencies]
